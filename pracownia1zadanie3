@@ -1,0 +1,12 @@
+# PRACOWNIA 1 ZADANIE 3
+
+def krzyzyk(n):
+    for i in range (n):
+        print (n * " " + n * "*")
+    for i in range (n):
+        print (3 * n * "*")
+    for i in range (n):
+        print (n * " " + n * "*")
+
+bok = int(input("Podaj długość boku kwadratu: "))
+krzyzyk(bok)
